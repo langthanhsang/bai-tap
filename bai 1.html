@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let sum = 0;
+        let arr = new Array(20);
+        for (let i = 0; i < arr.length; i++) {
+        arr[i] = Math.round(Math.random()*100)
+    }
+
+        for (let i = 0; i < arr.length; i++) {
+        if ( arr[i] % 2 === 1){
+        sum = sum + arr[i];
+    }
+    }
+        document.write('tổng các số lẻ trong mảng la:' + sum)
+</script>
+
+</body>
+</html>
